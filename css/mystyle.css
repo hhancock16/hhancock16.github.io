@@ -42,10 +42,6 @@ h3 {
 	font-style: italic;
 }
 
-#sketch {
-	border:none;
-	width: 100vw;
-	height: 50vh;
 }
 #overwrite {
 	color: cyan;
