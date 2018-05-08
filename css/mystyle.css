@@ -32,6 +32,11 @@ h3 {
 #overwrite {
 	color: cyan;
 }
+
+div {
+	text-align: center;
+}
+
 ul {	
 	list-style-type: none;
 	margin: 0;
@@ -39,6 +44,7 @@ ul {
 	background-color: #42b6f4;
 	line-height: 50px;
 	overflow: hidden; 
+	align-content: center;
 }
 ul li {
 	display: inline;
