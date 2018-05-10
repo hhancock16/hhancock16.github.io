@@ -8,7 +8,7 @@ body {
 	max-width: 100%;
 }
 
-h1 {
+#indexheader {
 	border:10px #948AA9;
 	/*border-style: dotted dashed solid double;*/
 	width: 600px;
