@@ -4,8 +4,9 @@
 	padding:0;
 }
 body {
-	background-color: #FFFEED;
+	background-color: #e2edff;
 	max-width: 100%;
+	max-height: 100%
 }
 
 #indexheader {
@@ -14,23 +15,31 @@ body {
 	width: 600px;
 	margin: 20px auto;
 	text-align: center;
-	padding: 30px;
+	padding: 10px;
 	font-family: 'Itim', cursive; 
 }
 
-.colorchange {
-
-	color: #296ddb;
+.remixdescription {
+	text-align: center;
+	font-size: 20px;
 }
 
-h3 { 
-	color: blue; 
-	font-style: italic;
+.remiximage {
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-}
-#overwrite {
-	color: cyan;
+.netartpg1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 div {
@@ -41,7 +50,7 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0; 
-	background-color: #42b6f4;
+	background-color: #54b7ff;
 	line-height: 50px;
 	overflow: hidden; 
 	align-content: center;
@@ -67,23 +76,5 @@ ul li a.active {
 ul li a:hover:not(.active) {
 	color:blue;
 	font-weight: bold;
+
 } div
-
- #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-}
-
-#myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
